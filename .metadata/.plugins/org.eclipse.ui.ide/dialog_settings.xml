@@ -43,5 +43,8 @@
 		<item value="org.eclipse.wst.xml_ui.feature:3.4.2.v201211061806-7H7GFeJDxumUrsn5qkiQgOEhsz0p60HAmPyU6VX"/>
 		<item value="org.eclipse.xsd.edit:2.7.0.v20130125-0826"/>
 		<item value="org.eclipse.xsd:2.8.1.v20130125-0826"/>
+		<item value="org.phpsrc.eclipse.pti.tools.codesniffer:1.3.0.R20111119000000"/>
+		<item value="org.phpsrc.eclipse.pti.tools.phpdepend:0.3.3.R20110627000000"/>
+		<item value="org.python.pydev.feature:4.5.1.201601132212"/>
 	</list>
 </section>

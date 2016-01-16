@@ -1,0 +1,36 @@
+[2015-10-08 02:14:37] /mobile/index.php?act=member_favorites_store&op=favorites_add ( act=member_favorites_store&op=favorites_add ) 
+ERR: Db Error: Unknown column 'member_name' in 'field list'
+INSERT INTO `33hao_favorites` (`member_id`,`member_name`,`fav_id`,`fav_type`,`fav_time`) VALUES('3','test','1','store','1444241677')
+[2015-10-08 02:14:44] /mobile/index.php?act=member_favorites_store&op=favorites_add ( act=member_favorites_store&op=favorites_add ) 
+ERR: Db Error: Unknown column 'member_name' in 'field list'
+INSERT INTO `33hao_favorites` (`member_id`,`member_name`,`fav_id`,`fav_type`,`fav_time`) VALUES('3','test','1','store','1444241684')
+[2015-10-08 02:15:47] /mobile/index.php?act=member_favorites_store&op=favorites_add ( act=member_favorites_store&op=favorites_add ) 
+ERR: Db Error: Unknown column 'member_name' in 'field list'
+INSERT INTO `33hao_favorites` (`member_id`,`member_name`,`fav_id`,`fav_type`,`fav_time`) VALUES('3','test','1','store','1444241747')
+[2015-10-08 02:16:18] /mobile/index.php?act=member_favorites_store&op=favorites_add ( act=member_favorites_store&op=favorites_add ) 
+ERR: Db Error: Unknown column 'member_name' in 'field list'
+INSERT INTO `33hao_favorites` (`member_id`,`member_name`,`fav_id`,`fav_type`,`fav_time`) VALUES('3','test','1','store','1444241778')
+[2015-10-08 02:16:23] /mobile/index.php?act=member_favorites_store&op=favorites_add ( act=member_favorites_store&op=favorites_add ) 
+ERR: Db Error: Unknown column 'member_name' in 'field list'
+INSERT INTO `33hao_favorites` (`member_id`,`member_name`,`fav_id`,`fav_type`,`fav_time`) VALUES('3','test','1','store','1444241783')
+[2015-10-08 02:17:14] /mobile/index.php?act=member_favorites_store&op=favorites_add ( act=member_favorites_store&op=favorites_add ) 
+ERR: Db Error: Unknown column 'member_name' in 'field list'
+INSERT INTO `33hao_favorites` (`member_id`,`member_name`,`fav_id`,`fav_type`,`fav_time`) VALUES('3','test','1','store','1444241834')
+[2015-10-08 02:17:55] /mobile/index.php?act=member_favorites_store&op=favorites_add ( act=member_favorites_store&op=favorites_add ) 
+ERR: Db Error: Unknown column 'member_name' in 'field list'
+INSERT INTO `33hao_favorites` (`member_id`,`member_name`,`fav_id`,`fav_type`,`fav_time`) VALUES('3','test','1','store','1444241875')
+[2015-10-08 02:20:31] /mobile/index.php?act=member_favorites_store&op=favorites_add ( act=member_favorites_store&op=favorites_add ) 
+ERR: Db Error: Unknown column 'member_name' in 'field list'
+INSERT INTO `33hao_favorites` (`member_id`,`member_name`,`fav_id`,`fav_type`,`fav_time`) VALUES('3','test','1','store','1444242031')
+[2015-10-08 18:22:33] /shop/index.php?act=member_favorites&op=delfavorites&type=store&fav_id=1&inajax=1&ajaxtarget= ( act=member_favorites&op=delfavorites ) 
+ERR: Db Error: Unknown column 'fav_id_in' in 'where clause'
+DELETE  FROM `33hao_favorites` WHERE ( fav_id_in = '\'1\'' ) AND ( fav_type = 'store' ) AND ( member_id = '3' )
+[2015-10-08 18:23:13] /shop/index.php?act=member_favorites&op=delfavorites&type=store&fav_id=1&inajax=1&ajaxtarget= ( act=member_favorites&op=delfavorites ) 
+ERR: Db Error: Unknown column 'fav_id_in' in 'where clause'
+DELETE  FROM `33hao_favorites` WHERE ( fav_id_in = '\'1\'' ) AND ( fav_type = 'store' ) AND ( member_id = '3' )
+[2015-10-08 18:23:27] /shop/index.php?act=member_favorites&op=delfavorites&type=store&fav_id=1&inajax=1&ajaxtarget= ( act=member_favorites&op=delfavorites ) 
+ERR: Db Error: Unknown column 'fav_id_in' in 'where clause'
+DELETE  FROM `33hao_favorites` WHERE ( fav_id_in = '\'1\'' ) AND ( fav_type = 'store' ) AND ( member_id = '3' )
+[2015-10-08 19:04:43] /shop/index.php?act=store_setting&op=store_mobile ( act=store_setting&op=store_mobile ) 
+ERR: Db Error: Unknown column 'mb_title_img' in 'field list'
+UPDATE `33hao_store` SET mb_title_img='04976462831298108.jpg',mb_sliders='a:5:{i:1;a:3:{s:3:\"img\";s:0:\"\";s:4:\"type\";i:1;s:4:\"link\";s:0:\"\";}i:2;a:3:{s:3:\"img\";s:0:\"\";s:4:\"type\";i:1;s:4:\"link\";s:0:\"\";}i:3;a:3:{s:3:\"img\";s:0:\"\";s:4:\"type\";i:1;s:4:\"link\";s:0:\"\";}i:4;a:3:{s:3:\"img\";s:0:\"\";s:4:\"type\";i:1;s:4:\"link\";s:0:\"\";}i:5;a:3:{s:3:\"img\";s:0:\"\";s:4:\"type\";i:1;s:4:\"link\";s:0:\"\";}}' WHERE ( store_id = '1' )

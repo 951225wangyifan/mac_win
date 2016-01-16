@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>获奖规则</title>
+	<meta name="description" content="1元夺宝">
+    <meta name="keywords" content="1元,一元,1元夺宝">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+	<meta content="telephone=no" name="format-detection">
+	<link href="../../../../../Public/public1/index/css/goods_past/common.css" rel="stylesheet">
+    <link href="../../../../../Public/public1/index/css/goods_past/detail.css" rel="stylesheet">
+    <!-- <link href="common.css" rel="stylesheet">
+    <link href="detail.css" rel="stylesheet"> -->
+</head>
+<body>
+<div class="g-body">
+	<div class="m-calc">
+	<div class="m-simpleHeader" id="dvHeader">
+	    <a href="#" onClick="javascript :history.back(-1);" data-pro="back" data-back="true" class="m-simpleHeader-back"><i class="ico-back"></i></a>
+	    <h1>获奖规则</h1>
+	</div>
+	    <div class="g-wrap">
+		    <div class="m-calc-A">
+		    	<p class="m-calc-A-title">幸运号码生成规则：</p>
+		    	<p>
+		    		&nbsp;&nbsp;
+		    		&nbsp;&nbsp;&nbsp;&nbsp;本平台每件商品根据价格分为10人次和100人次购买，用户每购买一人次会随机分配一幸运码。
+		    		若商品分为10人次，幸运码为0~9之间的随机数；若商品分为100人次，幸运码为0~99之间的随机数
+		    	</p>
+		    </div>
+
+		    <div class="m-calc-B">
+		    	<p class="m-calc-B-title">开奖号码生成规则：</p>
+				    <p>
+				    	&nbsp;&nbsp;
+		    			&nbsp;&nbsp;&nbsp;&nbsp;
+					    开奖号码以商品购买结束后的第一期重庆时时彩开奖号为准，若商品被分为10人次，则幸运号与时时彩开奖号最后1位相同的则为中奖号码，被分配到该号码的用户即为中奖者；
+					    若商品被分为100人次，则幸运号与时时彩开奖号最后2位相同的则为中奖号码，被分配到该号码的用户即为中奖者.中奖名单会在公众号和平台往期查询中公布。
+					    中奖者可以通过下面联系方式联系商家，领取奖品。
+		    		</p>
+				    	<a href="http://m.aicai.com/kjgg/history.do?gameIndex=301&agentId=1&vt=5" target="_blank">重庆时时彩开奖查询</a>
+		    </div>
+		    
+			<div class="m-calc-B">
+		    	<p class="m-calc-B-title">领奖联系方式</p>
+				    <p>
+					   电话：0532-82130063 <br/> 手机：18554882960 <br/> QQ：2848056886<br/>   微信：yunsiwei1<br/>   微信公众号：yyyjxi
+
+		    		</p>
+		    </div>
+	    </div>
+	</div>
+</div>
+<button id="pro-view-1" class="w-button w-button-round w-button-backToTop" style="display:none">返回顶部</button></body></html>

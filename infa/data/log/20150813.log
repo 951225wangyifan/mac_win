@@ -1,0 +1,18 @@
+[2015-08-13 10:28:16] /index.php?act=promotion&op=index ( act=promotion&op=index ) 
+ERR: Db Error: Unknown column 'gc_id_1' in 'field list'
+UPDATE `33hao_p_xianshi_goods` SET gc_id_1='1' WHERE ( xianshi_goods_id = '24' )
+[2015-08-13 10:28:16] /index.php?act=promotion&op=index ( act=promotion&op=index ) 
+ERR: Db Error: Unknown column 'gc_id_1' in 'field list'
+UPDATE `33hao_p_xianshi_goods` SET gc_id_1='1' WHERE ( xianshi_goods_id = '25' )
+[2015-08-13 10:28:19] /index.php?act=promotion&op=index ( act=promotion&op=index ) 
+ERR: Db Error: Unknown column 'gc_id_1' in 'field list'
+UPDATE `33hao_p_xianshi_goods` SET gc_id_1='1' WHERE ( xianshi_goods_id = '24' )
+[2015-08-13 10:28:19] /index.php?act=promotion&op=index ( act=promotion&op=index ) 
+ERR: Db Error: Unknown column 'gc_id_1' in 'field list'
+UPDATE `33hao_p_xianshi_goods` SET gc_id_1='1' WHERE ( xianshi_goods_id = '25' )
+[2015-08-13 11:33:07] /index.php?act=promotion&op=index ( act=promotion&op=index ) 
+ERR: Db Error: Unknown column 'gc_id_1' in 'field list'
+UPDATE `33hao_p_xianshi_goods` SET gc_id_1='1' WHERE ( xianshi_goods_id = '24' )
+[2015-08-13 11:33:07] /index.php?act=promotion&op=index ( act=promotion&op=index ) 
+ERR: Db Error: Unknown column 'gc_id_1' in 'field list'
+UPDATE `33hao_p_xianshi_goods` SET gc_id_1='1' WHERE ( xianshi_goods_id = '25' )

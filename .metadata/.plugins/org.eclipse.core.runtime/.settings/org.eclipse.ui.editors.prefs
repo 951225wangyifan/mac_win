@@ -1,4 +1,8 @@
 AbstractTextEditor.Color.Background=0,255,255
 AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+currentLineColor=192,192,192
 eclipse.preferences.version=1
+hoverReplaceMode=-1
 overviewRuler_migration=migrated_3.1
+printMarginColor=255,128,255

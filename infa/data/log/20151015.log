@@ -1,0 +1,9 @@
+[2015-10-15 20:09:14] /shop/index.php?act=member_favorites&op=delfavorites&type=goods&fav_id=239&inajax=1&ajaxtarget= ( act=member_favorites&op=delfavorites ) 
+ERR: Db Error: Unknown column 'fav_id_in' in 'where clause'
+DELETE  FROM `33hao_favorites` WHERE ( fav_id_in = '\'239\'' ) AND ( fav_type = 'goods' ) AND ( member_id = '3' )
+[2015-10-15 20:09:30] /shop/index.php?act=member_favorites&op=delfavorites&type=store&fav_id=1&inajax=1&ajaxtarget= ( act=member_favorites&op=delfavorites ) 
+ERR: Db Error: Unknown column 'fav_id_in' in 'where clause'
+DELETE  FROM `33hao_favorites` WHERE ( fav_id_in = '\'1\'' ) AND ( fav_type = 'store' ) AND ( member_id = '3' )
+[2015-10-15 20:14:54] /shop/index.php?act=member_favorites&op=delfavorites&type=goods&fav_id=239&inajax=1&ajaxtarget= ( act=member_favorites&op=delfavorites ) 
+ERR: Db Error: Unknown column 'fav_id_in' in 'where clause'
+DELETE  FROM `33hao_favorites` WHERE ( fav_id_in = '\'239\'' ) AND ( fav_type = 'goods' ) AND ( member_id = '3' )

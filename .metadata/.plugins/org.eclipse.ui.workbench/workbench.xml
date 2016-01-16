@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="50" version="2.0">
+<workbench progressCount="67" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="260" y="260">
 <fastViewData fastViewLocation="1024"/>
@@ -8,37 +8,55 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.zend.php.phpdocumentor.PHPDocumentorActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
+<coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="55" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.pdtextensions.core.ui.newclasstoolbaritem" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.pdtextensions.core.ui.newinterfcaetoolbaritem" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="com.zend.php.zendserver.ui.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.zend.php.library.ui.phpLibrariesToolbar" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.python.pydev.toolbars.evaluateActionSetterToolbar" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.phpsrc.eclipse.pti.tools.codesniffer.ui.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.phpsrc.eclipse.pti.tools.phpdepend.ui.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="118" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.php.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1436506391675" focus="true" label="Workspace - PHP">
+<page aggregateWorkingSetId="Aggregate for window 1436506391675" focus="true" label="Workspace - PyDev">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.zend.customization.welcome.welcomePageEditor" name="Welcome" partName="Welcome" title="Welcome" tooltip="Welcome" workbook="DefaultEditorWorkbook">
+<editor id="org.zend.customization.welcome.welcomePageEditor" name="Welcome" partName="Welcome" title="Welcome" tooltip="Welcome" workbook="DefaultEditorWorkbook">
 <input categories="true" discoveryFile="/directory.xml" factoryID="org.zend.php.common.welcome.WelcomePageEditorInput" style="0" url="file:/C:/Program Files (x86)/Zend/Zend Studio 11.0.2/plugins/com.zend.php.ui_11.0.2.v20140926-0202/resources/welcome/index-zend-studio-10-welcome-page.html"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="index.php" partName="index.php" path="C:/xampp/htdocs/test/index.php" title="index.php" tooltip="test/index.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/index.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="45" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="test.py" partName="test" path="C:/Python34/work/test.py" title="test" tooltip="python/test.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python/test.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="43" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -47,17 +65,18 @@
 </view>
 <view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
 <viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="0">
-<expanded>
-<element path="Conn///DESKTOP-UBNSPDO.www.5188zc.com"/>
+<expanded>&#x0A;<element path="Conn///DESKTOP-UBNSPDO.www.5188zc.com"/>
 <element path="Subs///DESKTOP-UBNSPDO.www.5188zc.com///ssh.files=Sftp Files"/>
 </expanded>
-<selection>
-<element path="Conn///DESKTOP-UBNSPDO.www.5188zc.com"/>
+<selection>&#x0A;<element path="Conn///DESKTOP-UBNSPDO.www.5188zc.com"/>
 </selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (42 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -91,10 +110,18 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.zend.php.server.ui.views.ServersView" partName="PHP Servers"/>
+<view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
+<expanded IMemento.internal.id="C:/Python34/work"/>
+<selected IMemento.internal.id="C:/Python34/work/test.py"/>
+</viewState>
+</view>
 </views>
-<perspectives activePart="org.eclipse.rse.ui.view.systemView" activePerspective="org.eclipse.php.perspective">
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.python.pydev.ui.PythonPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.php.internal.ui.PHPPerspectiveFactory" id="org.eclipse.php.perspective" label="PHP"/>
 <alwaysOnActionSet id="com.zend.php.ui.helpActionSet"/>
@@ -119,6 +146,10 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.php.ui.text.php.actionSet.presentation"/>
 <alwaysOnActionSet id="org.zend.php.framework.ZendToolActionSet"/>
+<alwaysOnActionSet id="com.zend.php.phpdocumentor.PHPDocumentorActionSet"/>
+<alwaysOnActionSet id="org.phpsrc.eclipse.pti.tools.codesniffer.ui.actionSet"/>
+<alwaysOnActionSet id="org.phpsrc.eclipse.pti.tools.phpdepend.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <show_view_action id="org.eclipse.php.ui.explorer"/>
 <show_view_action id="org.eclipse.php.ui.functions"/>
 <show_view_action id="org.eclipse.php.ui.projectOutline"/>
@@ -183,11 +214,11 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
 <hide_toolbar_item_id id="org.eclipse.ui.navigate.previous"/>
 <hide_toolbar_item_id id="org.eclipse.ui.window.quickAccess"/>
-<hide_toolbar_item_id id="com.zend.php.ui.actions.new.untitled.document"/>
 <hide_toolbar_item_id id="com.zend.php.debug.internal.ui.actions.TunnelingAction"/>
+<hide_toolbar_item_id id="com.zend.php.ui.actions.new.untitled.document"/>
 <hide_toolbar_item_id id="com.zend.php.ui.commands.EncodeProjectAction"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.ui.navigate.next"/>
 <hide_toolbar_item_id id="com.zend.php.ui.commands.GeneratePHPDocAction"/>
 <view id="org.eclipse.php.ui.explorer"/>
@@ -200,7 +231,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.rse.ui.view.systemView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.php.ui.explorer" appearance="2" expanded="2">
 <page content="org.eclipse.php.ui.explorer" label="PHP Explorer"/>
 <page content="org.eclipse.rse.ui.view.systemView" label="Remote Systems"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -247,6 +278,77 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.python.pydev.ui.perspective.PythonPerspectiveFactory" id="org.python.pydev.ui.PythonPerspective" label="PyDev"/>
+<alwaysOnActionSet id="com.zend.php.ui.helpActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<show_view_action id="org.python.pydev.views.PyCodeCoverageView"/>
+<show_view_action id="org.python.pydev.navigator.view"/>
+<show_view_action id="org.python.pydev.debug.pyunit.pyUnitView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonSourceFolderWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonPackageWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonModuleWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<hide_menu_item_id id="org.eclipse.ui.help.dynamicHelp"/>
+<hide_menu_item_id id="org.eclipse.ui.help.helpContents"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.python.pydev.navigator.view"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.python.pydev.navigator.view" appearance="2" expanded="2">
+<page content="org.python.pydev.navigator.view" label="PyDev Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74972975" ratioLeft="1387" ratioRight="463" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25945947" ratioLeft="480" ratioRight="1370" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.7492292" ratioLeft="729" ratioRight="244" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
@@ -254,12 +356,20 @@
 <editor categories="true" discoveryFile="/directory.xml" factoryID="org.zend.php.common.welcome.WelcomePageEditorInput" id="welcomeBrowser" style="0" url="file:/C:/Program Files (x86)/Zend/Zend Studio 11.0.2/plugins/com.zend.php.ui_11.0.2.v20140926-0202/resources/welcome/index-zend-studio-10-welcome-page.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/test/index.php"/>
 <editor categories="true" discoveryFile="/directory.xml" factoryID="org.zend.php.common.welcome.WelcomePageEditorInput" id="org.zend.customization.welcome.welcomePageEditor" style="0" url="file:/C:/Program Files (x86)/Zend/Zend Studio 11.0.2/plugins/com.zend.php.ui_11.0.2.v20140926-0202/resources/welcome/index-zend-studio-10-welcome-page.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/test/index.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python/test.py"/>
 </editors>
 <item historyLabel="Welcome" index="0"/>
 <item historyLabel="index.php" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Welcome" index="2"/>
+<item historyLabel="Welcome" index="2"/>
+<item historyLabel="index.php" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="test" index="4">
+<position info="not_deleted" x="43" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -277,6 +387,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="python/test.py">
+<persistable path="/python/test.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="test/index.php">
 <persistable path="/test/index.php"/>
 </file>

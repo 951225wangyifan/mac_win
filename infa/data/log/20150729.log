@@ -1,0 +1,51 @@
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_groupbuy' doesn't exist
+SELECT * FROM `love_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1438148952' ) AND ( end_time > '1438148952' ) ORDER BY recommended desc LIMIT 4  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_link' doesn't exist
+SELECT * FROM `love_link` as `link`   order by link_id
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_p_xianshi_goods' doesn't exist
+SELECT * FROM `love_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1438148952' ) AND ( end_time > '1438148952' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_web' doesn't exist
+SELECT * FROM `love_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '2' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '3' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '1' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '308' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '470' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '593' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '888' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '530' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '662' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '730' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '825' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '959' ) LIMIT 1000  
+[2015-07-29 13:49:13] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v3-b12.love_brand' doesn't exist
+SELECT * FROM `love_brand` WHERE ( brand_recommend = '1' ) AND ( class_id = '1037' ) LIMIT 1000  

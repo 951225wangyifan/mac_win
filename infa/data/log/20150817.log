@@ -1,0 +1,33 @@
+[2015-08-17 11:03:39] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v5.33hao_link' doesn't exist
+SELECT * FROM `33hao_link` as `link`   order by link_id
+[2015-08-17 11:03:45] / ( act=index&op=index ) 
+ERR: Db Error: Table 'v5.33hao_link' doesn't exist
+SELECT * FROM `33hao_link` as `link`   order by link_id
+[2015-08-17 11:04:34] /admin/index.php?act=store_area&op=list ( act=store_area&op=list ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+SELECT * FROM `33hao_store_area` 
+[2015-08-17 11:10:47] /admin/index.php?act=store_area&op=list ( act=store_area&op=list ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+SELECT * FROM `33hao_store_area` 
+[2015-08-17 11:15:52] /admin/index.php?act=store_area&op=list ( act=store_area&op=list ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+SELECT * FROM `33hao_store_area` 
+[2015-08-17 11:28:59] /admin/index.php?act=store_area&op=list ( act=store_area&op=list ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+SELECT * FROM `33hao_store_area` 
+[2015-08-17 11:29:00] /admin/index.php?act=store_area&op=list ( act=store_area&op=list ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+SELECT * FROM `33hao_store_area` 
+[2015-08-17 11:29:00] /admin/index.php?act=store_area&op=list ( act=store_area&op=list ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+SELECT * FROM `33hao_store_area` 
+[2015-08-17 11:38:17] /admin/index.php?act=store_area&op=list ( act=store_area&op=list ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+SELECT * FROM `33hao_store_area` 
+[2015-08-17 11:59:39] /admin/index.php?act=area&op=area_del&area_id=1 ( act=area&op=area_del ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+DELETE  FROM `33hao_store_area` WHERE ( area_id IN ('1','36','37','38','41','42','43','44','45','46','47','48','49','50','51','52','53','54','566','45056') )
+[2015-08-17 12:13:15] /admin/index.php?act=store_area&op=list ( act=store_area&op=list ) 
+ERR: Db Error: Table 'v3-b12.33hao_store_area' doesn't exist
+SELECT * FROM `33hao_store_area` 

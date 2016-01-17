@@ -1,0 +1,8 @@
+[ 2015-12-31T14:23:41+08:00 ] 123.114.42.19 /wml/index.php/Home/Pay/pay_result/order_id/$order_id
+ERR: 1054:Unknown column '$order_id' in 'where clause'
+ [ SQL语句 ] : UPDATE `think_order` SET `is_paid`='1',`pay_time`='1451543020' WHERE ( id=$order_id )
+
+[ 2015-12-31T14:29:59+08:00 ] 123.114.42.19 /wml/index.php/Home/Pay/pay_result/order_id/$order_id
+ERR: 1054:Unknown column '$order_id' in 'where clause'
+ [ SQL语句 ] : UPDATE `think_order` SET `is_paid`='1',`pay_time`='1451543398' WHERE ( id=$order_id )
+

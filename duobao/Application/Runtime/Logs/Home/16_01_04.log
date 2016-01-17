@@ -1,0 +1,20 @@
+[ 2016-01-04T10:41:01+08:00 ] 101.226.125.117 /wml/index.php?m=Home&c=Pay&a=pay
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_order` (`notice_sn`,`create_time`,`pay_time`,`is_paid`,`user_id`,`goods_id`,`number`,`money`) VALUES ('20160104064100940','1451875261','0','0',NULL,'331','1','0.01')
+
+[ 2016-01-04T10:43:06+08:00 ] 101.226.125.117 /wml/index.php?m=Home&c=Pay&a=pay
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_order` (`notice_sn`,`create_time`,`pay_time`,`is_paid`,`user_id`,`goods_id`,`number`,`money`) VALUES ('20160104064305541','1451875386','0','0',NULL,'331','1','0.01')
+
+[ 2016-01-04T10:45:09+08:00 ] 101.226.125.117 /wml/index.php?m=Home&c=Pay&a=pay
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_order` (`notice_sn`,`create_time`,`pay_time`,`is_paid`,`user_id`,`goods_id`,`number`,`money`) VALUES ('20160104064508773','1451875509','0','0',NULL,'331','1','0.01')
+
+[ 2016-01-04T10:45:32+08:00 ] 101.226.125.117 /wml/index.php?m=Home&c=Pay&a=pay
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_order` (`notice_sn`,`create_time`,`pay_time`,`is_paid`,`user_id`,`goods_id`,`number`,`money`) VALUES ('20160104064530897','1451875532','0','0',NULL,'331','1','0.01')
+
+[ 2016-01-04T10:45:48+08:00 ] 140.207.63.103 /wml/index.php?m=Home&c=Pay&a=pay
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_order` (`notice_sn`,`create_time`,`pay_time`,`is_paid`,`user_id`,`goods_id`,`number`,`money`) VALUES ('20160104064547881','1451875548','0','0',NULL,'331','1','0.01')
+

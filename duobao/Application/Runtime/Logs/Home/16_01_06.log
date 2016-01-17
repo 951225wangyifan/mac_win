@@ -1,0 +1,46 @@
+[ 2016-01-06T20:41:49+08:00 ] 123.151.153.35 /wml/index.php/Home/Index/index
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `think_unique` (`goods_id`,`lucky_number`) VALUES ('327','a:10:{i:0;i:9;i:1;i:7;i:2;i:0;i:3;i:3;i:4;i:5;i:5;i:8;i:6;i:1;i:7;i:2;i:8;i:4;i:9;i:6;}')
+
+[ 2016-01-06T20:44:19+08:00 ] 123.151.153.35 /wml/index.php/Home/Index/index
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `think_unique` (`goods_id`,`lucky_number`) VALUES ('327','a:10:{i:0;i:7;i:1;i:2;i:2;i:6;i:3;i:1;i:4;i:9;i:5;i:5;i:6;i:4;i:7;i:8;i:8;i:0;i:9;i:3;}')
+
+[ 2016-01-06T20:48:27+08:00 ] 123.151.153.35 /wml/index.php?m=Home&c=Goods&a=past
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND goods_id=331 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(number) AS tp_sum FROM `think_order` WHERE ( user_id= AND goods_id=331 ) LIMIT 1  
+
+[ 2016-01-06T20:48:59+08:00 ] 123.151.153.35 /wml/index.php?m=Home&c=Goods&a=past
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND goods_id=331 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(number) AS tp_sum FROM `think_order` WHERE ( user_id= AND goods_id=331 ) LIMIT 1  
+
+[ 2016-01-06T20:49:03+08:00 ] 123.151.153.35 /wml/index.php?m=Home&c=Goods&a=past
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND goods_id=331 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(number) AS tp_sum FROM `think_order` WHERE ( user_id= AND goods_id=331 ) LIMIT 1  
+
+[ 2016-01-06T21:29:12+08:00 ] 123.151.153.35 /wml/index.php?m=Home&c=Goods&a=past
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND goods_id=331 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(number) AS tp_sum FROM `think_order` WHERE ( user_id= AND goods_id=331 ) LIMIT 1  
+
+[ 2016-01-06T21:29:39+08:00 ] 123.151.153.35 /wml/index.php?m=Home&c=Goods&a=past
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND goods_id=331 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(number) AS tp_sum FROM `think_order` WHERE ( user_id= AND goods_id=331 ) LIMIT 1  
+
+[ 2016-01-06T22:11:17+08:00 ] 125.39.210.31 /wml/index.php?m=Home&c=User&a=lucky&id=331&user_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND user_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `lucky_number` FROM `think_order` WHERE ( goods_id= AND user_id=1 ) LIMIT 1  
+
+[ 2016-01-06T22:47:59+08:00 ] 123.151.153.35 /wml/index.php?m=Home&c=User&a=lucky&id=331
+ERR: XML标签语法错误 : $order_info neq ''
+
+[ 2016-01-06T22:48:00+08:00 ] 123.151.153.35 /wml/index.php?m=Home&c=User&a=lucky&id=331
+ERR: XML标签语法错误 : $order_info neq ''
+
+[ 2016-01-06T22:58:47+08:00 ] 111.30.131.199 /wml/index.php?m=Home&c=Pay&a=pay
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( id= ) LIMIT 1  
+
+[ 2016-01-06T23:56:47+08:00 ] 125.39.210.31 /wml/index.php?m=Home&c=Pay&a=go_pay&order_id=150
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( id= ) LIMIT 1  
+

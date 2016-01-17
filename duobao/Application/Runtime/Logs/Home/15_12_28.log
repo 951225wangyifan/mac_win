@@ -1,0 +1,34 @@
+[ 2015-12-28T21:01:25+08:00 ] 123.151.64.142 /index.php?m=Home&c=Indexs&a=Index
+ERR: 无法加载控制器:Indexs
+
+[ 2015-12-28T21:01:25+08:00 ] 101.226.33.204 /index.php?m=Home&c=Indexs&a=Index
+ERR: 无法加载控制器:Indexs
+
+[ 2015-12-28T21:01:34+08:00 ] 123.151.64.142 /index.php?m=Home&c=Indexs&a=Index
+ERR: 无法加载控制器:Indexs
+
+[ 2015-12-28T21:01:41+08:00 ] 123.151.64.142 /index.php?m=Home&c=Index&a=Index
+ERR: 模板不存在:./Application/Home/View/Index/Index.html
+
+[ 2015-12-28T21:01:42+08:00 ] 180.153.214.180 /index.php?m=Home&c=Index&a=Index
+ERR: 模板不存在:./Application/Home/View/Index/Index.html
+
+[ 2015-12-28T21:57:45+08:00 ] 123.125.212.117 /
+ERR: 无法加载控制器:Index
+
+[ 2015-12-28T22:18:39+08:00 ] 123.151.64.142 /?code=001142a99b79b7aadb3d3b756d5d379z&state=1
+ERR: 1054:Unknown column 'oqBF_wht83V' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( wx_openid=oqBF_wht83V-VQ-hHMbeK2O5JsM0 ) LIMIT 1  
+
+[ 2015-12-28T22:29:58+08:00 ] 123.151.64.142 /?code=021389d07c524885c6d7e77e435a3c9L&state=1
+ERR: 1364:Field 'wx_openid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`name`,`image`) VALUES (NULL,'http://wx.qlogo.cn/mmopen/r48cSSlr7jgj6kFMCIRrztgO4eapmljqJ3zYcm1rrupxxlOKwKr3MQAebKweEx5uhBRVxEVHHrK83gzHSvZjDHeU4JREw2wC/0')
+
+[ 2015-12-28T22:31:01+08:00 ] 123.151.64.142 /?code=0014ec6078d23d0527318eeec2714f09&state=1
+ERR: 1364:Field 'wx_openid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`name`,`image`) VALUES ('王茂林','http://wx.qlogo.cn/mmopen/r48cSSlr7jgj6kFMCIRrztgO4eapmljqJ3zYcm1rrupxxlOKwKr3MQAebKweEx5uhBRVxEVHHrK83gzHSvZjDHeU4JREw2wC/0')
+
+[ 2015-12-28T22:45:27+08:00 ] 123.151.64.142 /?code=0013e648a26368d3b65c4942eaa289cK&state=1
+ERR: 1054:Unknown column '王茂林' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( id=3 AND name=王茂林 ) LIMIT 1  
+

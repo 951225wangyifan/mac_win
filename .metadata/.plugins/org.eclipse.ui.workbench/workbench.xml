@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="69" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="260" y="260">
 <fastViewData fastViewLocation="1024"/>
@@ -58,11 +58,20 @@
 </viewState>
 </view>
 <view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
-<viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="0">
+<viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="7">
 <expanded>
 <element path="Conn///DESKTOP-UBNSPDO.infa"/>
 <element path="Subs///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files"/>
+<element path="FRef///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root"/>
+<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////"/>
+<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata"/>
+<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata////alidata/www"/>
+<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata////alidata/www////alidata/www/default"/>
+<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata////alidata/www////alidata/www/default////alidata/www/default/www.younglego.com"/>
 </expanded>
+<selection>
+<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata////alidata/www////alidata/www/default////alidata/www/default/www.younglego.com////alidata/www/default/www.younglego.com/index.php"/>
+</selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
@@ -348,50 +357,50 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/www.younglego.com/index.php">
+<persistable path="/RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/www.younglego.com/index.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="update_admin.html" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Admin/update_admin.html">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Admin/update_admin.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="IndexController.class.php" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/Controller/IndexController.class.php">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/Controller/IndexController.class.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="edit.html" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Goods/edit.html">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Goods/edit.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="login.html" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Admin/login.html">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Admin/login.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="admin.html" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Admin/admin.html">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Admin/admin.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Index/index.html">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Index/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="top.html" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Index/top.html">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Index/top.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="main.html" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Index/main.html">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/View/Index/main.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="AdminController.class.php" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/Controller/AdminController.class.php">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/Controller/AdminController.class.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="GoodsController.class.php" tooltip="RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/Controller/GoodsController.class.php">
+<persistable path="/RemoteSystemsTempFiles/WWW.1QJX.COM/alidata/www/default/Admin/Home/Controller/GoodsController.class.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="c.php" tooltip="C:\Users\wml\Desktop\layDate - js日期控件与时间插件官方讲解_files\c.php">
+<persistable uri="file:/C:/Users/wml/Desktop/layDate%20-%20js日期控件与时间插件官方讲解_files/c.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="core.php" tooltip="C:\Users\wml\Desktop\layDate - js日期控件与时间插件官方讲解_files\core.php">
+<persistable uri="file:/C:/Users/wml/Desktop/layDate%20-%20js日期控件与时间插件官方讲解_files/core.php"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/wap/index.html">
 <persistable path="/RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/wap/index.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="config.js" tooltip="RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/wap/js/config.js">
 <persistable path="/RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/wap/js/config.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="config.js" tooltip="infa/wap/js/config.js">
-<persistable path="/infa/wap/js/config.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="infa/wap/index.html">
-<persistable path="/infa/wap/index.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="queue.model.php" tooltip="infa/queue/model/queue.model.php">
-<persistable path="/infa/queue/model/queue.model.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="global.php" tooltip="infa/global.php">
-<persistable path="/infa/global.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="tpl.php" tooltip="infa/core/framework/libraries/tpl.php">
-<persistable path="/infa/core/framework/libraries/tpl.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="mysqli.php" tooltip="infa/core/framework/db/mysqli.php">
-<persistable path="/infa/core/framework/db/mysqli.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="infa/core/framework/db/index.html">
-<persistable path="/infa/core/framework/db/index.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="mysql.php" tooltip="infa/core/framework/db/mysql.php">
-<persistable path="/infa/core/framework/db/mysql.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="swfupload.swfobject.js" tooltip="infa/shop/tbimport/index/js/swfupload.swfobject.js">
-<persistable path="/infa/shop/tbimport/index/js/swfupload.swfobject.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="global.php" tooltip="RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/global.php">
-<persistable path="/RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/global.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ywf.php" tooltip="infa/core/ywf.php">
-<persistable path="/infa/core/ywf.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="base.php" tooltip="infa/core/framework/core/base.php">
-<persistable path="/infa/core/framework/core/base.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="infa/install/index.php">
-<persistable path="/infa/install/index.php"/>
 </file>
 </mruList>
 </workbench>

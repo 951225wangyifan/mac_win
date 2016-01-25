@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="69" version="2.0">
+<workbench progressCount="20" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="260" y="260">
 <fastViewData fastViewLocation="1024"/>
@@ -58,20 +58,11 @@
 </viewState>
 </view>
 <view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
-<viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="7">
+<viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="0">
 <expanded>
 <element path="Conn///DESKTOP-UBNSPDO.infa"/>
 <element path="Subs///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files"/>
-<element path="FRef///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root"/>
-<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////"/>
-<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata"/>
-<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata////alidata/www"/>
-<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata////alidata/www////alidata/www/default"/>
-<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata////alidata/www////alidata/www/default////alidata/www/default/www.younglego.com"/>
 </expanded>
-<selection>
-<element path="Remote///DESKTOP-UBNSPDO.infa///ssh.files=Sftp Files///DESKTOP-UBNSPDO___DESKTOP-UBNSPDO:ssh.files=Root////////alidata////alidata/www////alidata/www/default////alidata/www/default/www.younglego.com////alidata/www/default/www.younglego.com/index.php"/>
-</selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
@@ -210,11 +201,11 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
 <hide_toolbar_item_id id="org.eclipse.ui.navigate.previous"/>
 <hide_toolbar_item_id id="org.eclipse.ui.window.quickAccess"/>
-<hide_toolbar_item_id id="com.zend.php.debug.internal.ui.actions.TunnelingAction"/>
 <hide_toolbar_item_id id="com.zend.php.ui.actions.new.untitled.document"/>
+<hide_toolbar_item_id id="com.zend.php.debug.internal.ui.actions.TunnelingAction"/>
 <hide_toolbar_item_id id="com.zend.php.ui.commands.EncodeProjectAction"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
 <hide_toolbar_item_id id="org.eclipse.ui.navigate.next"/>
 <hide_toolbar_item_id id="com.zend.php.ui.commands.GeneratePHPDocAction"/>
 <view id="org.eclipse.php.ui.explorer"/>
@@ -357,6 +348,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="native_call.php" tooltip="C:\Users\wml\Desktop\weixin_pay\公众账号支付DEMO\wx2\demo\native_call.php">
+<persistable uri="file:/C:/Users/wml/Desktop/weixin_pay/公众账号支付DEMO/wx2/demo/native_call.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="refund.php" tooltip="C:\Users\wml\Desktop\weixin_pay\公众账号支付DEMO\wx2\demo\refund.php">
+<persistable uri="file:/C:/Users/wml/Desktop/weixin_pay/公众账号支付DEMO/wx2/demo/refund.php"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/www.younglego.com/index.php">
 <persistable path="/RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/www.younglego.com/index.php"/>
 </file>
@@ -395,12 +392,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="core.php" tooltip="C:\Users\wml\Desktop\layDate - js日期控件与时间插件官方讲解_files\core.php">
 <persistable uri="file:/C:/Users/wml/Desktop/layDate%20-%20js日期控件与时间插件官方讲解_files/core.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/wap/index.html">
-<persistable path="/RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/wap/index.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="config.js" tooltip="RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/wap/js/config.js">
-<persistable path="/RemoteSystemsTempFiles/182.92.66.99/alidata/www/default/infamall/wap/js/config.js"/>
 </file>
 </mruList>
 </workbench>

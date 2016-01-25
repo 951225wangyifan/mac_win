@@ -17,17 +17,17 @@ class WxPayConf_pub
 
 
 
-	const APPID = 'wxa7e0d8fb62b7d5df';
-	const MCHID = '1298860401';
-	const KEY = '1213156a1213156a1213156a1213156a';
-	const APPSECRET = 'cab576f236da15a72eed02bc0fb7820a';
+	const APPID = '111111111111111111';
+	const MCHID = '11111111111111';
+	const KEY = '1111111111111111111111111';
+	const APPSECRET = '11111111111111111111';
 
 
 
 	//=======【JSAPI路径设置】===================================
 	//获取access_token过程中的跳转uri，通过跳转将code传入jsapi支付页面
-	const JS_API_CALL_URL = 'http://www.1qjx.com/index.php?m=Home&c=Jsapi&a=pay';
-	//http://www.1qjx.com/index.php?m=Home&c=Pay&a=pay
+	const JS_API_CALL_URL = 'http://www.qwe.com/index.php?m=Home&c=Jsapi&a=pay';
+	//http://www.4545.com/index.php?m=Home&c=Pay&a=pay
 
 	//=======【证书路径设置】=====================================
 	//证书路径,注意应该填写绝对路径
@@ -36,7 +36,7 @@ class WxPayConf_pub
 
 	//=======【异步通知url设置】===================================
 	//异步通知url，商户根据实际开发过程设定
-	const NOTIFY_URL =  'http://www.1qjx.com/index.php/Home/Jsapi/notify';
+	const NOTIFY_URL =  'http://www.4544.com/index.php/Home/Jsapi/notify';
 
 	//=======【curl超时设置】===================================
 	//本例程通过curl使用HTTP POST方法，此处可修改其超时时间，默认为30秒
